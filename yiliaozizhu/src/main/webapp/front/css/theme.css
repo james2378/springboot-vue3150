@@ -1,0 +1,633 @@
+/*定义全局css*/
+body {
+
+	/* 紫色 */
+    /* 1 全局公共主颜色 */
+    --publicMainColor:  #B24592;
+    /* 1 全局公共副颜色 */
+    --publicSubColor: #E57498;
+
+}
+
+
+/* 导航栏开始*/
+.header-frontend .navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	border: none;
+}
+
+.navbar-brand {
+	color: #bcc0cd;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 30px;
+	/*	margin-top: 15px;*/
+	padding: 8px 0 0 15px;
+}
+
+
+.header-frontend .navbar-collapse ul.navbar-nav {
+	float: right;
+	margin-right: 0;
+}
+
+.header-frontend .navbar-default {
+	background-color: #fff;
+}
+
+.header-frontend .nav li a,
+.header-frontend .nav li.active ul.dropdown-menu li a {
+	color: #999;
+	font-size: 14px;
+	font-weight: 300;
+	background: none;
+}
+
+.header-frontend .nav li a:hover,
+.header-frontend .nav li a:focus,
+.header-frontend .nav li.active a,
+.header-frontend .nav li.active a:hover,
+.header-frontend .nav li a.dropdown-toggle:hover,
+.header-frontend .nav li a.dropdown-toggle:focus,
+.header-frontend .nav li.active ul.dropdown-menu li a:hover,
+/*导航栏样式*/
+.header-frontend .nav li.active ul.dropdown-menu li.active a {
+	color: #fff;
+	background-color: var(--publicMainColor,orange);
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.header-frontend .navbar-default .navbar-nav> .open> a,
+.header-frontend .navbar-default .navbar-nav> .open> a:hover,
+.header-frontend .navbar-default .navbar-nav> .open> a:focus {
+	color: #fff;
+	background-color: var(--publicMainColor,orange);
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/*导航栏形状*/
+.header-frontend .navbar-nav> li> a {
+	line-height: 60px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	padding-left: 23px;
+	padding-right: 23px;
+	color: #333;
+}
+
+.header-frontend .nav .caret {
+	border-bottom-color: #999;
+	border-top-color: #999;
+}
+
+.header-frontend .nav li .dropdown-menu {
+	padding: 0;
+}
+
+.header-frontend .nav li .dropdown-menu li a {
+	line-height: 28px;
+	padding: 3px 12px;
+}
+
+.nav-tabs{ border: 0; }
+/*.nav>li{ margin-right: 15px;}*/
+.nav>li>a{ background: #eba11a; color: #fff; border-radius:50px; padding: 5px 30px;}
+.nav>li>a:hover{  background: #f35b4f; color: #fff; border: 0;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{ background: #f35b4f; color: #fff; border: 0;}
+@media (max-width: 768px) {
+	.nav>li>a{ padding: 5px 15px;}
+	.nav>li{ margin-right: 18px;}
+	.navbar-brand img{ width: 120px;}
+	.navbar-brand{ margin-top: 5px;}
+	.navbar-toggle {
+		margin-top: 12px;
+	}
+	.header-frontend .navbar-collapse  ul.navbar-nav {
+		float: none;
+		margin-left: 0;
+	}
+	.header-frontend .navbar-nav> li> a{ line-height: 30px;     border-radius: 5px;
+		-webkit-border-radius: 5px;}
+	.header-frontend .nav li a:hover,
+	.header-frontend .nav li a:focus,
+	.header-frontend .nav li a.dropdown-toggle:focus,
+	.header-frontend .nav li a.dropdown-toggle .dropdown-menu li a:hover,
+	.header-frontend .nav li.active a,
+	.header-frontend .dropdown-menu li a:hover {
+		color: #fff !important;
+	}
+	.header-frontend .navbar-nav > li {
+		padding: 0;
+		margin-bottom: 2px;
+		line-height: 30px;
+	}
+	.header-frontend .nav li ul.dropdown-menu li a {
+		margin-left: 0px;
+		color: #999!important; ;
+	}
+	.header-frontend .nav li .dropdown-menu li a:hover, .header-frontend .nav li .dropdown-menu li.active a {
+		color: #fff !important;
+	}
+	.navbar-header {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.navbar-brand {
+		float: none;
+	}
+	.carousel-control {
+		font-size: 45px;
+		line-height: 70px;
+	}
+	.btn, .form-control {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 480px) {
+	.header-frontend .navbar {
+		min-height: 60px;
+	}
+	.navbar-toggle {
+		margin-right: -10px;
+	}
+	.header-frontend .nav li .dropdown-menu li a:hover {
+		color: #f77b6f !important;
+	}
+	.navbar-brand {
+		margin-top: 10px !important;
+		float: left !important;
+	}
+}
+/*导航栏结束*/
+
+/*腰线开始*/
+/*腰线结束*/
+
+
+/*home页面数据样式 开始*/
+	/*home页面数据样式 普通数据样式 开始*/
+
+.galry-grid a {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.galry-grid.grid-top-rgt {
+	margin-bottom: 1.1em;
+}
+.w3agile-text {
+	background: rgba(0, 0, 0, 0.58);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: -100%;
+	left: 0;
+	transition:.5s all;
+}
+.galry-grid a:hover .w3agile-text{
+	bottom: 0%;
+}
+.w3agile-text h5 {
+	font-size: 2.5em;
+	color: #fff;
+	text-align: center;
+	margin-top: 4em;
+}
+img.zoom-img{
+	width:100%;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-moz-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	transition-timing-function: ease-out;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-o-transition-duration: .5s;
+}
+.galry-grid a:hover img.zoom-img{
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+	-moz-transform: scale(1.8);
+	-ms-transform: scale(1.8);
+	-o-transform: scale(1.8);
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	-webkit-transition-duration: 750ms;
+	-moz-transition-duration: 750ms;
+	-ms-transition-duration: 750ms;
+	-o-transition-duration: 750ms;
+	transition-duration: 750ms;
+	overflow: hidden;
+}
+	/*home页面数据样式 普通数据样式 结束*/
+/*home页面数据样式 结束*/
+
+/*list页面数据样式 开始*/
+	/*list页面数据样式 普通数据样式 开始*/
+.dataStyle {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+.dataStyle figure {
+    position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    margin: -0.135em;
+    width: 33.333%;
+    height: 400px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.dataStyle figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+	width: 100%;
+    opacity: 0.8;
+    max-width: initial !important;
+    max-height: initial !important;
+}
+.dataStyle figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.dataStyle figure figcaption::before,
+.dataStyle figure figcaption::after {
+    pointer-events: none;
+}
+.dataStyle figure figcaption,
+.dataStyle figure a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 90%;
+	margin-top: 25px;
+}
+.dataStyle figure a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+.dataStyle figure h2 {
+    word-spacing: -0.15em;
+
+    font-weight: 300;
+}
+.dataStyle figure h2 span {
+    font-weight: 800;
+}
+.dataStyle figure h2,
+.dataStyle figure p {
+    margin: 0;
+}
+.dataStyle figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+figure.effect-bubba {
+    background: #55cbd2;
+	width: 25%;
+}
+figure.effect-bubba img {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+figure.effect-bubba:hover img {
+    opacity: 0.4;
+}
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-bubba figcaption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+figure.effect-bubba figcaption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+figure.effect-bubba h2 {
+    padding-top: 30%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,-20px,0);
+    transform: translate3d(0,-20px,0);
+}
+figure.effect-bubba p {
+    padding: 20px 2.5em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+	font-size: 20px;
+}
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+	font-size: 20px;
+}
+	/*list页面数据样式 普通数据样式 结束*/
+/*list页面数据样式 结束*/
+
+/* 轮播图 */
+.layui-carousel[lay-indicator=outside] .layui-carousel-ind ul {
+	background-color: #FFFFFF;
+}
+
+.layui-carousel-ind li.layui-this {
+	background-color:   var(--publicMainColor,orange);
+}
+
+.layui-carousel-ind li {
+	background-color: #E0E0E0;
+}
+
+.layui-carousel-ind li:hover {
+	background-color: #E0E0E0;
+}
+/* 首页标题 */
+.index-title {
+	color:   var(--publicMainColor,orange);
+}
+
+/* 首页新闻 */
+.news-home-container {
+	background: #e5e5e5;
+}
+
+.news-home-container .layui-colla-item {
+	border: 1px solid #EEEEEE;
+}
+
+.news-home-container .layui-colla-content {
+	background: #FFFFFF;
+}
+
+.news-home-container .layui-colla-title {
+	background: #d1d1d1;
+	border: 1px solid #EEEEEE;
+	color: #515151;
+}
+
+.news-home-container .layui-colla-title:hover {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+.news-home-container .layui-card-header {
+	background: #d1d1d1;
+	border: 1px solid #FFFFFF;
+	color: #515151;
+}
+
+/* 图文列表 */
+.data-container:nth-child(odd) {
+	background-color: #F3F3F3;
+}
+
+.data-container .data-list .data-item:hover {
+	border: 2px dashed   var(--publicMainColor,orange);
+}
+
+.data-container .data-list .data-item .title:hover {
+	color: #FFFFFF;
+	background:   var(--publicMainColor,orange);
+}
+
+
+.data-container .data-list .data-item .title {
+	background: #f0f0f0;
+	color:   var(--publicMainColor,orange);
+}
+
+.data-container .data-list .data-item .price {
+	color:   var(--publicMainColor,orange);
+}
+
+/* 详情页 */
+.data-detail {
+	background: #FFFFFF;
+}
+
+.data-detail-breadcrumb {
+	background: #EEEEEE;
+	color: #515151;
+}
+
+.data-detail .title {
+	color: #515151;
+	border: 3px dotted #EEEEEE;
+}
+
+.data-detail .count-container {
+	color: #FFFFFF;
+}
+
+.data-detail .count-container .number {
+	background: #443b3b;
+}
+
+.data-detail .tool-container{
+	border: 3px dotted #EEEEEE;
+}
+
+.data-detail .price{
+	color:   var(--publicMainColor,orange);
+}
+
+
+.layui-tab-card>.layui-tab-title .layui-this {
+    background-color:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+/* 底部导航栏 */
+.nav-bottom {
+	background:   var(--publicMainColor,orange);
+}
+
+.nav-bottom .layui-nav-item a {
+	color: #FFFFFF;
+}
+
+/* banner */
+.banner {
+	background:   var(--publicMainColor,orange);
+}
+
+/* 新闻资讯 */
+.news-container .news-list .news-item .detail-container .h2 {
+	color: #4e6990;
+}
+
+.news-container .news-list .news-item .detail-container .desc {
+	color: #515151;
+}
+
+.news-container .news-list .news-item .detail-container .create-time {
+	color: #515151;
+}
+
+.news-container .title {
+	color:   var(--publicMainColor,orange);
+}
+
+
+.news-container .bottom-container .btn {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+/* 论坛 */
+
+.forum-container .bottom-container .btn {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+.forum-container .forum-list .forum-item:hover {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+.forum-container .forum-list .forum-item.line:hover {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+/* 考试 */
+.paper-container thead tr{
+	background:   var(--publicMainColor,orange) ;
+	color: #FFFFFF;
+}
+
+.paper-container tbody tr:hover{
+	color: #FFFFFF;
+	background-color:   var(--publicMainColor,orange);
+}
+
+/* 个人中心 */
+
+.center-container  .layui-nav .layui-nav-more {
+    border-color: #515151 transparent transparent;
+}
+
+.center-container .layui-nav-itemed>a, .layui-nav-tree .layui-nav-title a, .layui-nav-tree .layui-nav-title a:hover {
+    color: #515151 !important;
+}
+
+.center-container  .layui-nav .layui-nav-mored, .layui-nav-itemed>a .layui-nav-more {
+    border-color: transparent transparent #515151;
+}
+
+.center-container .layui-nav {
+    background-color: #009688;
+    color: #515151;
+}
+
+.center-container .layui-nav-itemed>.layui-nav-child {
+    background-color: #FFFFFF !important;
+}
+
+.center-container .layui-nav-tree .layui-nav-bar {
+    width: 5px;
+    height: 0;
+    background-color:   var(--publicMainColor,orange);
+}
+
+/* 分页插件 */
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+	background-color:   var(--publicMainColor,orange);
+}
+
+.layui-laypage a:hover {
+	color:   var(--publicMainColor,orange);
+}
+
+.btn-submit {
+	background:   var(--publicMainColor,orange);
+}
+
+.btn-theme{
+	background:   var(--publicMainColor,orange);
+}
+
+
+/* checkbox */
+.layui-form-radio>i:hover, .layui-form-radioed>i {
+    color:   var(--publicMainColor,orange);
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color:   var(--publicMainColor,orange);
+    color: #fff;
+}
+
+layui-tab-title .layui-this {
+    color:   var(--publicMainColor,orange);
+}
+
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after {
+    border-bottom: 2px solid   var(--publicMainColor,orange);
+}
